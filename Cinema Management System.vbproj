@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F0F8DB3-FAC2-4625-A1BF-5DDAB56CEC25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DemoProject2.My.MyApplication</StartupObject>
+    <RootNamespace>DemoProject2</RootNamespace>
+    <AssemblyName>DemoProject2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DemoProject2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DemoProject2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ster_kinekor_custom2_ccW_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCustomer1.Designer.vb">
+      <DependentUpon>AddCustomer1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer2.Designer.vb">
+      <DependentUpon>AddCustomer2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer3.Designer.vb">
+      <DependentUpon>AddCustomer3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCustomer4.Designer.vb">
+      <DependentUpon>AddCustomer4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cinema1.Designer.vb">
+      <DependentUpon>Cinema1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cinema2.Designer.vb">
+      <DependentUpon>Cinema2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cinema3.Designer.vb">
+      <DependentUpon>Cinema3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cinema4.Designer.vb">
+      <DependentUpon>Cinema4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cinema_1DataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_1DataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_1DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_1DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_2DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_2DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_2DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_2DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_3DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_3DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_3DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_3DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_4DataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_4DataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_4DataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_4DataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_4DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_4DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cinema_4DataSet31.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cinema_4DataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customers1.Designer.vb">
+      <DependentUpon>Customers1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers2.Designer.vb">
+      <DependentUpon>Customers2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers3.Designer.vb">
+      <DependentUpon>Customers3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers4.Designer.vb">
+      <DependentUpon>Customers4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Admin.Designer.vb">
+      <DependentUpon>Menu_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Receipt1.Designer.vb">
+      <DependentUpon>Receipt1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt2.Designer.vb">
+      <DependentUpon>Receipt2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt3.Designer.vb">
+      <DependentUpon>Receipt3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt4.Designer.vb">
+      <DependentUpon>Receipt4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservedSeats.Designer.vb">
+      <DependentUpon>ReservedSeats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservedSeats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservedSeats2.Designer.vb">
+      <DependentUpon>ReservedSeats2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservedSeats2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservedSeats3.Designer.vb">
+      <DependentUpon>ReservedSeats3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservedSeats3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReservedSeats4.Designer.vb">
+      <DependentUpon>ReservedSeats4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservedSeats4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trailer 1.Designer.vb">
+      <DependentUpon>Trailer 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trailer 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trailer 2.Designer.vb">
+      <DependentUpon>Trailer 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trailer 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trailer 3.Designer.vb">
+      <DependentUpon>Trailer 3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trailer 3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trailer 4.Designer.vb">
+      <DependentUpon>Trailer 4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Trailer 4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddCustomer1.resx">
+      <DependentUpon>AddCustomer1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer2.resx">
+      <DependentUpon>AddCustomer2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer3.resx">
+      <DependentUpon>AddCustomer3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCustomer4.resx">
+      <DependentUpon>AddCustomer4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cinema1.resx">
+      <DependentUpon>Cinema1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cinema2.resx">
+      <DependentUpon>Cinema2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cinema3.resx">
+      <DependentUpon>Cinema3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cinema4.resx">
+      <DependentUpon>Cinema4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers1.resx">
+      <DependentUpon>Customers1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers2.resx">
+      <DependentUpon>Customers2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers3.resx">
+      <DependentUpon>Customers3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers4.resx">
+      <DependentUpon>Customers4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Admin.resx">
+      <DependentUpon>Menu_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt1.resx">
+      <DependentUpon>Receipt1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt2.resx">
+      <DependentUpon>Receipt2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt3.resx">
+      <DependentUpon>Receipt3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt4.resx">
+      <DependentUpon>Receipt4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservedSeats.resx">
+      <DependentUpon>ReservedSeats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservedSeats2.resx">
+      <DependentUpon>ReservedSeats2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservedSeats3.resx">
+      <DependentUpon>ReservedSeats3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservedSeats4.resx">
+      <DependentUpon>ReservedSeats4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trailer 1.resx">
+      <DependentUpon>Trailer 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trailer 2.resx">
+      <DependentUpon>Trailer 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trailer 3.resx">
+      <DependentUpon>Trailer 3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trailer 4.resx">
+      <DependentUpon>Trailer 4.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cinema_1DataSet12.xsc">
+      <DependentUpon>Cinema_1DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_1DataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_1DataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_1DataSet12.xss">
+      <DependentUpon>Cinema_1DataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_1DataSet2.xsc">
+      <DependentUpon>Cinema_1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_1DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_1DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_1DataSet2.xss">
+      <DependentUpon>Cinema_1DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_2DataSet1.xsc">
+      <DependentUpon>Cinema_2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_2DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_2DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_2DataSet1.xss">
+      <DependentUpon>Cinema_2DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_2DataSet11.xsc">
+      <DependentUpon>Cinema_2DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_2DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_2DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_2DataSet11.xss">
+      <DependentUpon>Cinema_2DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_3DataSet11.xsc">
+      <DependentUpon>Cinema_3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_3DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_3DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_3DataSet11.xss">
+      <DependentUpon>Cinema_3DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_3DataSet3.xsc">
+      <DependentUpon>Cinema_3DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_3DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_3DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_3DataSet3.xss">
+      <DependentUpon>Cinema_3DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet11.xsc">
+      <DependentUpon>Cinema_4DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_4DataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_4DataSet11.xss">
+      <DependentUpon>Cinema_4DataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet21.xsc">
+      <DependentUpon>Cinema_4DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_4DataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_4DataSet21.xss">
+      <DependentUpon>Cinema_4DataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet3.xsc">
+      <DependentUpon>Cinema_4DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_4DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_4DataSet3.xss">
+      <DependentUpon>Cinema_4DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet31.xsc">
+      <DependentUpon>Cinema_4DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="Cinema_4DataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Cinema_4DataSet31.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Cinema_4DataSet31.xss">
+      <DependentUpon>Cinema_4DataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="UsersDataSet.xsc">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UsersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UsersDataSet.xss">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimeBoxFinal.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\available.png" />
+    <None Include="Resources\Background.jpg" />
+    <None Include="Resources\booked.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\Button.png" />
+    <None Include="Resources\Button2.png" />
+    <None Include="Resources\Cinema-Seats.jpg" />
+    <None Include="Resources\Login.png" />
+    <None Include="Resources\Login2.png" />
+    <None Include="Resources\man.png" />
+    <None Include="Resources\man2.png" />
+    <None Include="Resources\MovieBox.png" />
+    <None Include="Resources\Presentation1.jpg" />
+    <None Include="Resources\Seats.jpg" />
+    <None Include="Resources\ster_kinekor_custom2_ccW_icon.ico" />
+    <None Include="Resources\Time.png" />
+    <None Include="Resources\TimeBox.png" />
+    <None Include="Resources\avengers-infinity-war.jpg" />
+    <None Include="Resources\Black-Panther-poster-main-xl.jpg" />
+    <None Include="Resources\Bright-2017.jpg" />
+    <None Include="Resources\jumanji-main-2.jpg" />
+    <Content Include="Cinema 1.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Trailers\BRIGHT Trailer %282017%29 Will Smith, Joel Edgerton Sci-Fi Movie HD.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Trailers\JUMANJI 2 International Trailer %282017%29 New Footage, Dwayne Johnson Adventure Movie HD.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Trailers\Marvel Studios%27 Avengers_ Infinity War - Official Trailer.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Trailers\Marvel Studios%27 Black Panther - Official Trailer.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Users.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
