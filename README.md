@@ -33,22 +33,22 @@ After clicking the **Book** button. The Booking Form appears. The file [Cinema.v
 
 On this form, the Admin can select particular seats for customers. The following screenshots detail the Booking process
 
-    1. Selecting Seats and Calculating Change
+1. Selecting Seats and Calculating Change
 
 ![Booking 1](https://i.ibb.co/6rMmG8t/Booking-1.png)
 
 
-    2.  Making The Booking. 
+2.  Making The Booking. 
 
 ![Booking 2](https://i.ibb.co/5YjpfJc/Booking-2.png)
 
-    3.  Updated Cinema Form
+3.  Updated Cinema Form
 
 ![Booking 3](https://i.ibb.co/Dfp8vyr/Booking-3.png)
 
 **NB** The selected seats have all now turned from green to red to indicate a booking and the number of booked seats has increased (available seats have decreased)
 
-    4. Printing the receipt
+4. Printing the receipt
 
 ![Booking 4](https://i.ibb.co/K72nHFs/Booking-4.png)
 
