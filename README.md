@@ -52,6 +52,7 @@ On this form, the Admin can select particular seats for customers. The following
 
 ![Booking 4](https://i.ibb.co/K72nHFs/Booking-4.png)
 
+---
 
 The Admin can also view existing bookings from customers by clicking the **View Reservations** Button. The file [ReservedSeats.vb](https://github.com/Sammy-Nyakabau/CinemaSystem/blob/master/ReservedSeats.vb) contains the code that connects with the database [Cinema 1.accdb](https://github.com/Sammy-Nyakabau/CinemaSystem/blob/master/Cinema%201.accdb) to show the existing bookings which are updated everytime a new booking is made.
 
