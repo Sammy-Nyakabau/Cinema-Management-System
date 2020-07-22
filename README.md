@@ -48,7 +48,7 @@ On this form, the Admin can select particular seats for customers. The following
 
 **NB** The selected seats have all now turned from green to red to indicate a booking and the number of booked seats has increased (available seats have decreased)
 
-4. Printing the receipt
+4. Printing the receipt.
 
 ![Booking 4](https://i.ibb.co/K72nHFs/Booking-4.png)
 
